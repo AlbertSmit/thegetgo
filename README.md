@@ -15,10 +15,8 @@ I like trees, as you noticed. Also, we might want to save some data in our start
 It's a bit like Parcel (which I also really like), but it's a bit more neat and tidy. Also, when wanting to use TypeScript when scaling up; this supports it!
 - [Microenvi](https://github.com/fwilkerson/microenvi)\
 Things need to run in the browser. We're not coding for the sake of it.
-- [Husky](https://github.com/typicode/husky)\
+- [Husky](https://github.com/typicode/husky) + [ESLint](https://github.com/eslint/eslint) + [Lint-staged](https://github.com/okonet/lint-staged)\
 Linting is fun and all, but we want to automate things. Run the linter pre-commit.
-- [ESLint](https://github.com/eslint/eslint)\
-We need pretty and consistent code. Nothing more, nothing less. Makes coding a breeze. Also, hey, have some _standards_!
 - [nano-css](https://github.com/streamich/nano-css)\
 Well, I really like styled-components! And I like SASS, and clean CSS files! Looking around for a clean CSS-in-JS dependency (and there are loads of them!), I found this to be my fav.
 - [Normalize.css](https://github.com/necolas/normalize.css)\
