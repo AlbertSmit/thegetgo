@@ -8,7 +8,9 @@ Nevertheless; dependencies with nice syntax, and not just grabbin' a new copy of
 
 # Which?
 - [Alpine.js](https://github.com/alpinejs/alpine)\
-**Why:** We want to work with data, make things interactive, and bind attributes. We can also just use React, right? Well, yes. We can. But we don't need to kill a fly with a machine gun, now do we. Let's not get overboard with the tools!\
+**Why:** We want to work with data, make things interactive, and bind attributes. We can also just use React, right? Well, yes. We can. But we don't need to kill a fly with a machine gun, now do we. Let's not get overboard with the tools!
+- [Spruce](https://github.com/ryangjchandler/spruce)\
+**Why:** I like trees, as you noticed. Also, we might want to save some data in our starter. This is what we call a state. Spruce and Alpine; a great pear of trees. Suited for the job.
 - [Microbundle](https://github.com/developit/microbundle)
 **Why:** It's a bit like Parcel (which I also really like), but it's a bit more neat and tidy. Also, when wanting to use TypeScript when scaling up; this supports it!
 - [Microenvi](https://github.com/fwilkerson/microenvi)\
