@@ -2,13 +2,9 @@
   "name": "thegetgo",
   "version": "1.0.0",
   "description": "Starter.",
-  "source": "src/index.html",
-  "main": "dist/foo.js",
-  "module": "dist/foo.module.js",
-  "unpkg": "dist/foo.umd.js",
   "scripts": {
     "go": "echo \"Hey, ho! Let's go!\" && exit 1",
-    "start": "snowpack dev",
+    "dev": "snowpack dev",
     "build": "snowpack build"
   },
   "keywords": [],
@@ -34,6 +30,9 @@
     "lint-staged": "^10.4.0",
     "snowpack": "^2.13.3",
     "typescript": "^4.0.3"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "husky": {
     "hooks": {
