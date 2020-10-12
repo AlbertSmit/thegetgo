@@ -1,16 +1,17 @@
-# _the get go_ :horse:
+<div align="center">
+  <p>🦢 Lightweight. &nbsp; <b>/</b> &nbsp; 💽 Good DX. &nbsp; <b>/</b> &nbsp; 🏇🏻 Fast.</p>
+</div>
+
+---
+<div align="center">
+  <h1><i>the get go :horse:</i></h1>
 Minimalistic starter with Alpine.js, Vite, Husky, ESLint, and PostCSS.
+</div>
 
 # Why?
 Setting up pagest fast, with dependencies that excite me. 
 Also, none of the boilerplate setup mumbo-jumbo; we wanna get to work!
 Nevertheless; dependencies with nice syntax, and not just grabbin' a new copy of `create-react-app` straight away for every _simple_ project. **There's no need.**
-
-# What?
-The main goals here:
-<div align="center">
-  <p>🦢 Lightweight. &nbsp; <b>/</b> &nbsp; 💽 Good DX. &nbsp; <b>/</b> &nbsp; 🏇🏻 Fast.</p>
-</div>
 
 # Which?
 - [Alpine.js](https://github.com/alpinejs/alpine)\
