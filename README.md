@@ -9,7 +9,7 @@ Nevertheless; dependencies with nice syntax, and not just grabbin' a new copy of
 # What?
 The main goals here:
 <div align="center">
-  <p><b>🦢 Lightweight. &nbsp; / &nbsp; 💽 Good DX. &nbsp; / &nbsp; 🏇🏻 Fast.</b></p>
+  <h2>🦢 Lightweight. &nbsp; <b>/</b> &nbsp; 💽 Good DX. &nbsp; <b>/</b> &nbsp; 🏇🏻 Fast.</h2>
 </div>
 
 # Which?
