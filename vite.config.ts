@@ -1,6 +1,5 @@
 import path from 'path'
 import { UserConfig } from 'vite'
-import prettier from 'rollup-plugin-prettier'
 
 const alias = {
 	// eslint-disable-next-line no-undef

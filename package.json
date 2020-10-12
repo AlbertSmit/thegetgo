@@ -12,8 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "@ryangjchandler/spruce": "^1.1.2",
-    "alpinejs": "^2.7.0",
-    "postcss-preset-env": "^6.7.0"
+    "alpinejs": "^2.7.0"
   },
   "devDependencies": {
     "@babel/core": "^7.11.6",
@@ -28,6 +27,7 @@
     "postcss": "^7.0.35",
     "postcss-nested": "^4.2.3",
     "postcss-normalize": "^9.0.0",
+    "postcss-preset-env": "^6.7.0",
     "prettier": "^2.1.2",
     "typescript": "^4.0.3",
     "vite": "^1.0.0-rc.4"

@@ -1,2 +1,2 @@
 import 'alpinejs'
-import 'normalize.css'
+import './main.postcss'
