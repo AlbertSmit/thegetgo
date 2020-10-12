@@ -1,7 +1,7 @@
 <div align="center">
   <h1><i>the get go :horse:</i></h1>
   <p>🦢 Lightweight. &nbsp; <b>/</b> &nbsp; 💽 Good DX. &nbsp; <b>/</b> &nbsp; 🏇🏻 Fast.</p>
-  <p>Minimalistic starter with Alpine.js, Vite, Husky, ESLint, and PostCSS.</p>
+  <p>Minimalistic starter with Alpine.js, Vite, TypeScript, Husky, ESLint, and PostCSS.</p>
 </div>
 
 # Why?
@@ -19,12 +19,13 @@ I like trees, as you might have noticed. Also, we might want to save some data i
 This is what we call a state. Spruce and Alpine; a great pair of trees. 
 - [Vite](https://github.com/vitejs/vite) (which uses [Rollup.js](https://github.com/webpack/webpack) to bundle)\
 Developments need to be done on a server. And we want it to be _fast_. This does it. 
-Also! We need to bundle all the stuff we use. This lets Rollup.js bundle everything when we put it on production (which we can configure to do whatever we want! Woohoo!).
-  - **Vite** has in implementation for **PostCSS**; this lets us do the following:
-    - Normalize the user-agent CSS.
-    - Use future CSS (like `--var:`) right now!
-    - Minify our CSS on bundling.
-    - Have nested CSS (like SASS, without having SASS).
+Also! We need to bundle all the stuff we use. This lets Rollup.js bundle everything when we put it on production.
+**Bonus**: it supports TypeScript out of the box! From _the get-go!_
+- **Vite** has in implementation for **PostCSS**; this lets us do the following:
+  - Normalize the user-agent CSS.
+  - Use future CSS (like `--var:`) right _now!_
+  - Minify our CSS on bundling.
+  - Have nested CSS (like SASS, without having SASS).
 - [Husky](https://github.com/typicode/husky) + [ESLint](https://github.com/eslint/eslint) + [Lint-staged](https://github.com/okonet/lint-staged)\
 Linting is fun and all, but we want to automate things. 
 Run the linter pre-commit.
