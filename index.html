@@ -10,22 +10,6 @@
 <body>
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <script type="module" src="/src/index.ts"></script>
-  <script>
-    function ye() {
-      return {
-        init() { this.getKanyeQuote() },
-        write(key = 'quote', value) { Spruce.store('app')[key] = value },
-        getKanyeQuote() {
-          fetch('https://api.kanye.rest')
-            .then(res => res.json())
-            .then(res => this.write('quote', res.quote))
-        }
-      }
-    }
-
-    ye().init()
-  </script>
-
   <nav>
     <p link>Github</p>
     <p link>Website</p>
@@ -42,6 +26,22 @@
       <button @click.debounce="getKanyeQuote()">Geddit.</button>
     </div>
   </main>
+
+  <script>
+    function ye() {
+      return {
+        init() { this.getKanyeQuote() },
+        write(key = 'quote', value) { Spruce.store('app')[key] = value },
+        getKanyeQuote() {
+          fetch('https://api.kanye.rest')
+            .then(res => res.json())
+            .then(res => this.write('quote', res.quote))
+        }
+      }
+    }
+
+    ye().init()
+  </script>
 </body>
 
 </html>
