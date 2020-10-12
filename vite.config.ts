@@ -1,6 +1,5 @@
 import path from 'path'
 import { UserConfig } from 'vite'
-import cleanup from 'rollup-plugin-cleanup'
 import prettier from 'rollup-plugin-prettier'
 
 const alias = {
@@ -11,19 +10,11 @@ const alias = {
 const config: UserConfig = {
 	alias,
 	plugins: [],
-	rollupInputOptions: {
-		plugins: [
-			cleanup(),
-			prettier({
-				tabWidth: 2,
-				singleQuote: true,
-			})
-		],
-	},
+	rollupInputOptions: {},
 	rollupOutputOptions: { 
-		banner: '/* Not sure why you are reading this. */',
-		footer: '/* That\'s all folks! */',
-		entryFileNames: 'superfastbundle.[name].[hash].js'
+		banner: ((): string => '/* Not sure why you are reading this. */'),
+		footer: ((): string =>'/* That\'s all folks! */'),
+		entryFileNames: 'dev.[name].[hash].js',
 	}
 }
 
