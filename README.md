@@ -8,9 +8,9 @@ Nevertheless; dependencies with nice syntax, and not just grabbin' a new copy of
 
 # What?
 The main goals here:
-- 🦢  Lightweight.
-- 💽  Good DX.
-- 🏇🏻  Fast. 
+<div align="center">
+  <p><b>🦢 Lightweight. &nbsp; / &nbsp; 💽 Good DX. &nbsp; / &nbsp; 🏇🏻 Fast.</b></p>
+</div>
 
 # Which?
 - [Alpine.js](https://github.com/alpinejs/alpine)\
