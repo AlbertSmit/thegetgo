@@ -1,12 +1,20 @@
 :root {
-  --color: rebeccapurple;
+  --color: tan;
   --text: white;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color: hsl(0 0% 5%);
+    --text: hsl(0 0% 100%);
+  }
 }
 
 body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 
   width: 100vw;
   height: 100vh;
@@ -15,11 +23,53 @@ body {
   background: var(--color);
   font-family: system-ui;
 
-  h1 {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  nav {
+    flex: 0 1;
+    width: 90vw;
+
+    display: flex;
+    justify-content: flex-end;
+
     color: var(--text);
+
+    a, p, li {
+      color: var(--text);
+      font-size: .9rem;
+      padding: 1rem;
+
+      cursor: pointer;
+
+      &[link] {
+        color: rgba(255,255,255,0.4);
+      }
+    }
   }
 
-  p:empty {
-    display: none;
+  main {
+    flex: 1;
+    display: inherit;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    h1 {
+      color: var(--text);
+      font-weight: 300;
+      font-size: 4rem;
+      letter-spacing: -0.025rem;
+    }
+
+    p:empty {
+      display: none;
+    } 
+
+    div[quote] {
+      color: var(--text);
+      max-width: 400px;
+      line-height: 1.45rem;
+    }
   }
 }
