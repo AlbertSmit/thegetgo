@@ -1,11 +1,7 @@
 <div align="center">
-  <p>🦢 Lightweight. &nbsp; <b>/</b> &nbsp; 💽 Good DX. &nbsp; <b>/</b> &nbsp; 🏇🏻 Fast.</p>
-</div>
-
----
-<div align="center">
   <h1><i>the get go :horse:</i></h1>
-Minimalistic starter with Alpine.js, Vite, Husky, ESLint, and PostCSS.
+  <p>🦢 Lightweight. &nbsp; <b>/</b> &nbsp; 💽 Good DX. &nbsp; <b>/</b> &nbsp; 🏇🏻 Fast.</p>
+  <p>Minimalistic starter with Alpine.js, Vite, Husky, ESLint, and PostCSS.</p>
 </div>
 
 # Why?
