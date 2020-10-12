@@ -8,24 +8,29 @@ Nevertheless; dependencies with nice syntax, and not just grabbin' a new copy of
 
 # What?
 The main goals here:
-- 🦢 Lightweight.
-- 💽 Good DX.
-- 🏇🏻 Fast. 
+- 🦢  Lightweight.
+- 💽  Good DX.
+- 🏇🏻  Fast. 
 
 # Which?
 - [Alpine.js](https://github.com/alpinejs/alpine)\
-We want to work with data, make things interactive, and bind attributes. We can also just use React, right? Well, yes. We can. But we don't need to kill a fly with a machine gun, now do we. Let's not get overboard with the tools!
+We want to work with data, make things interactive, and bind attributes. We can also just use React, right? 
+Well, yes. We can. But we don't need to kill a fly with a machine gun, now do we. 
+Let's not get overboard with the tools!
 - [Spruce](https://github.com/ryangjchandler/spruce)\
-I like trees, as you noticed. Also, we might want to save some data in our starter. This is what we call a state. Spruce and Alpine; a great pear of trees. Suited for the job.
+I like trees, as you noticed. Also, we might want to save some data in our starter. 
+This is what we call a state. Spruce and Alpine; a great pair of trees. 
+Suited for the job.
 - [Vite](https://github.com/vitejs/vite) (which uses [Rollup.js](https://github.com/webpack/webpack) to bundle)\
 Developments need to be done on a server. And we want it to be _fast_. This does it. Also! We need to bundle all the stuff we use. This lets Rollup.js bundle everything when we put it on production.
 - [Husky](https://github.com/typicode/husky) + [ESLint](https://github.com/eslint/eslint) + [Lint-staged](https://github.com/okonet/lint-staged)\
-Linting is fun and all, but we want to automate things. Run the linter pre-commit.
+Linting is fun and all, but we want to automate things. 
+Run the linter pre-commit.
 
 # When?
 _Right now_.
 
 ---
 
-With love,
+With love,\
 _Albert_.
