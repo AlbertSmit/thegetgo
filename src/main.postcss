@@ -1,5 +1,7 @@
 :root {
   --color: tan;
+  --gray: #1C1C1C;
+  --lightgray: #3B3B3B;
   --text: white;
 }
 
@@ -67,9 +69,38 @@ body {
     } 
 
     div[quote] {
+      display: inherit;
+      flex-direction: column;
+      justify-content: center;
+
       color: var(--text);
       max-width: 400px;
       line-height: 1.45rem;
+
+      button {
+        border: 2px solid transparent;
+        border-radius: .5rem;
+        padding: .75rem 1.5rem;
+        
+        appearance: none;
+        background: var(--gray);
+        color: var(--text);
+
+        transition: 150ms ease-in-out;
+
+        &:focus {
+          outline: none;
+          border-color: var(--lightgray);
+          box-shadow: 0 0 1px 0 var(--gray);
+        }
+
+        &:hover {
+          box-shadow: 0 0 1px 0 var(--gray);
+          opacity: .9;
+          
+          cursor: pointer;
+        }
+      }
     }
   }
 }
